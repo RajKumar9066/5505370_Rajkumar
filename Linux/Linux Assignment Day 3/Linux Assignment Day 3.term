@@ -1,0 +1,41 @@
+vi hello.c
+gcc hello.c && ./a.out
+vi filecmd
+cat filecmd
+cat sum.c
+gcc sum.c && ./a.out
+vi filecmd
+cat filecmd
+more filecmd
+less filecmd
+head filecmd
+head -n 5 filecmd
+tail +5 filecmd
+nano sample.txt
+cat sample.txt
+head sample.txt
+head -n 3 sample.txt
+tail -n 3 sample.txt
+tail -n +4 sample.txt
+nano sample2.txt
+head -n 5 sample2.txt
+tail -n 3 sample2.txt
+cat sample1.txt sample2.txt
+mkdir empty_folder
+rmdir empty_folder
+cal
+cal 2025
+whoami
+who
+whoami
+ls -l
+chmod u+x script.sh
+touch script.sh
+chmod u+x script.sh
+ls -l script.sh
+chmod u+x script.sh
+chmod o-r script.sh
+ls -l script.sh
+chmod 462 script.sh
+ls -l script.sh
+history

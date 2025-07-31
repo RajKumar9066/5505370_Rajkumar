@@ -1,0 +1,34 @@
+date
+touch hello.txt
+ls -l
+echo "Hello, Raj! Welcome to Linux." > hello.txt
+echo "This is line 2." >> hello.txt
+cat hello.txt
+nano hello.txt
+ls -l hello.txt
+mkdir training
+mv hello.txt training/
+ls training
+cd training
+pwd
+ls -l
+nano sum.c
+gcc sum.c -o sum
+./sum
+history
+echo $?
+head -5 sum.c
+tail -5 sum.c
+wc sum.c
+grep printf sum.c
+mkdir -p project/src
+mv sum.c project/src/
+ls -R project
+rm project/src/sum
+rm project/src/sum.c
+rmdir project/src
+rmdir project
+man ls
+export MYVAR="Hello"
+echo $MYVAR
+history
